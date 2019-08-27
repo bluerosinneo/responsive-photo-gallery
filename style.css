@@ -1,0 +1,29 @@
+#description{
+
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.lightImages{
+    margin: 5px;
+    width: 236px;
+    border-radius: 15%;
+    border: 10px solid darkblue;
+}
+
+@media only screen and (max-device-width : 480px){
+    body{
+        background-color: red;
+    }
+    
+}
